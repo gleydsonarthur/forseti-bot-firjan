@@ -1,12 +1,18 @@
 <?php
+
 require_once "vendor/autoload.php";
-
-
 use GuzzleHttp\Client;
 use Forseti\Bot\Firjan\PageObject\DetalhesItemPageObject;
 
+$guz = new Client(['cookies' => true, 'verify' => false]);
 
+$poDetalhesItem = new DetalhesItemPageObject($guz);
 
-$po = new DetalhesItemPageObject(new Client());
+$licitacoes = $poDetalhesItem->getdetalhesItem()->getIterator();
 
-print_r($po->getdetalhesItem(2093));
+foreach ($licitacoes as $licitacoe) {
+    $poDetalhesItem = $poDetalhesItem->getdetalhesItem();
+
+    print_r($poDetalhesItem->getIterator());
+
+}

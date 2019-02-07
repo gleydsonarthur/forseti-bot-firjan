@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="66ce6dcf-ade1-4913-8c8c-93d15e084d19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detalhes.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/detalhes_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/detalhes_item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/FirjanLicitacaoIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/FirjanLicitacaoIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/AbstractJsonParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser/AbstractJsonParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Detalhes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser/ResumoEditalParser.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,29 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PageObject/FirjanLicitacaoPageObject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="103" column="55" lean-forward="true" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PageObject/PageObject.php">
+        <entry file="file://$PROJECT_DIR$/pesquisa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="271">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="e#133#155#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,14 +51,18 @@
         <option value="$PROJECT_DIR$/src/Iterator/FirjanLicitacaoIterator.php" />
         <option value="$PROJECT_DIR$/src/Parser/AbstractJsonParser.php" />
         <option value="$PROJECT_DIR$/src/Parser/DetalhesItensLicitacaoParser.php" />
-        <option value="$PROJECT_DIR$/src/Parser/ResumoEditalParser.php" />
         <option value="$PROJECT_DIR$/src/PageObject/ResumoEditalPageObject.php" />
         <option value="$PROJECT_DIR$/src/PageObject/DetalhesLicitacaoParser.php" />
         <option value="$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/detalhes_item.php" />
         <option value="$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php" />
         <option value="$PROJECT_DIR$/src/Parser/DetalhesLicitacaoParser.php" />
+        <option value="$PROJECT_DIR$/src/PageObject/FirjanPageObject.php" />
+        <option value="$PROJECT_DIR$/src/Parser/ResumoEditalParser.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/detalhes_item.php" />
+        <option value="$PROJECT_DIR$/vendor/resumo_edital.php" />
+        <option value="$PROJECT_DIR$/resumo_edital.php" />
+        <option value="$PROJECT_DIR$/pesquisa.php" />
       </list>
     </option>
   </component>
@@ -105,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,15 +123,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Parser" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="forseti-bot-firjan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forseti-bot-firjan" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forseti-bot-sesc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -180,22 +173,23 @@
       <workItem from="1549280307442" duration="792000" />
       <workItem from="1549362171866" duration="726000" />
       <workItem from="1549451056893" duration="7049000" />
-      <workItem from="1549537228067" duration="8528000" />
+      <workItem from="1549537228067" duration="10122000" />
+      <workItem from="1549556948443" duration="3775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28702000" />
+    <option name="totallyTimeSpent" value="34071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1389" height="785" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26880118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2732688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -204,7 +198,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3140244" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2987805" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,13 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator/FirjanLicitacaoIterator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/AbstractJsonParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -273,23 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/ResumoEditalParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesLicitacaoParser.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/FirjanLicitacaoParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -304,19 +274,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesLicitacaoParser.php">
+    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalhes_item.php">
+    <entry file="file://$PROJECT_DIR$/src/PageObject/PageObject.php" />
+    <entry file="file://$PROJECT_DIR$/src/Iterator/FirjanIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/FirjanParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/FirjanPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/ResumoEditalParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Detalhes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding>
-            <element signature="e#44#66#0#PHP" expanded="true" />
+            <element signature="e#43#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -324,41 +330,44 @@
     <entry file="file://$PROJECT_DIR$/detalhes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="e#45#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/detalhes_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#43#65#0#PHP" expanded="true" />
+            <element signature="e#44#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php">
+    <entry file="file://$PROJECT_DIR$/vendor/resumo_edital.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resumo_edital.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#6#96#0#PHP" expanded="true" />
+            <element signature="e#134#156#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/FirjanLicitacaoPageObject.php">
+    <entry file="file://$PROJECT_DIR$/pesquisa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="103" column="55" lean-forward="true" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/PageObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#133#155#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

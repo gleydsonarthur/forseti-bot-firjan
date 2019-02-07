@@ -2,21 +2,16 @@
 
 require_once "vendor/autoload.php";
 use GuzzleHttp\Client;
-use Forseti\Bot\Firjan\PageObject\FirjanPageObject;
+use Forseti\Bot\Firjan\PageObject\DetalhesPageObject;
 
 
 $guz = new Client(['cookies' => true, 'verify' => false]);
 
-$po = new FirjanPageObject($guz);
+$po = new DetalhesPageObject($guz);
 
-$parser = $po->post();
+$parser = $po->getDetalhes(2093)->getIterator();
 
-foreach ($parser->getIterator() as $item)
-{
-    var_dump('<br/>');
-    var_dump($item);
-}
-
+print_r($parser);
 
 
 /*    use Forseti\Bot\Firjan\PageObject\PageObject;
