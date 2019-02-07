@@ -8,7 +8,7 @@
 
 namespace Forseti\Bot\Firjan\Parser;
 
-class AbstractJsonParser
+Abstract class AbstractJsonParser
 {
     private $json;
 

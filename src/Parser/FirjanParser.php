@@ -7,13 +7,13 @@
  */
 
 namespace Forseti\Bot\Firjan\Parser;
-use Forseti\Bot\Firjan\Iterator\FirjanLicitacaoIterator;
+use Forseti\Bot\Firjan\Iterator\FirjanIterator;
 
 
-class FirjanLicitacaoParser extends AbstractJsonParser
+class FirjanParser extends AbstractJsonParser
 {
     public function getIterator()
     {
-        return new FirjanLicitacaoIterator($this->getJsonAsArray());
+        return new FirjanIterator($this->getJsonAsArray());
     }
 }

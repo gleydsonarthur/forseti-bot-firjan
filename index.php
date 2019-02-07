@@ -2,12 +2,12 @@
 
 require_once "vendor/autoload.php";
 use GuzzleHttp\Client;
-use Forseti\Bot\Firjan\PageObject\FirjanLicitacaoPageObject;
+use Forseti\Bot\Firjan\PageObject\FirjanPageObject;
 
 
 $guz = new Client(['cookies' => true, 'verify' => false]);
 
-$po = new FirjanLicitacaoPageObject($guz);
+$po = new FirjanPageObject($guz);
 
 $parser = $po->post();
 

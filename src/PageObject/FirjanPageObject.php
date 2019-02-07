@@ -8,9 +8,9 @@
 
 namespace Forseti\Bot\Firjan\PageObject;
 
-use Forseti\Bot\Firjan\Parser\FirjanLicitacaoParser;
+use Forseti\Bot\Firjan\Parser\FirjanParser;
 
-class FirjanLicitacaoPageObject extends AbstractPageObject
+class FirjanPageObject extends AbstractPageObject
 {
     const MODALIDADE_TODAS = 0;
     const MODALIDADE_PROCESSOS_PRESENCIAIS = 22;
@@ -112,7 +112,7 @@ class FirjanLicitacaoPageObject extends AbstractPageObject
                 ]
             ]);
 
-        return new FirjanLicitacaoParser($resp->getBody()->getContents());
+        return new FirjanParser($resp->getBody()->getContents());
     }
 
 }

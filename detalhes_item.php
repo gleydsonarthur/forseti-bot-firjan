@@ -1,4 +1,4 @@
-
+<?php
 require_once "vendor/autoload.php";
 
 
@@ -9,4 +9,4 @@ use Forseti\Bot\Firjan\PageObject\DetalhesItemPageObject;
 
 $po = new DetalhesItemPageObject(new Client());
 
-print_r($po->getdetalhesItem());
+print_r($po->getdetalhesItem(2093));
