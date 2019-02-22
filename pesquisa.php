@@ -7,18 +7,18 @@
  */
 require_once 'vendor/autoload.php';
 use GuzzleHttp\Client;
-use Forseti\Bot\Firjan\PageObject\FirjanPageObject;
+use Forseti\Bot\Firjan\PageObject\FirjanPesquisaPageObject;
 use Forseti\Bot\Firjan\PageObject\DetalhesPageObject;
 
 $guz = new Client(['cookies' => true, 'verify' => false]);
 
-$po = new FirjanPageObject($guz);
+$po = new FirjanPesquisaPageObject($guz);
 
-$parser = $po->byModalidade(FirjanPageObject::MODALIDADE_PREGAO_ELETRONICO)->bySituacao(FirjanPageObject::PREGAO_ELETRONICO_EM_PROPOSTA);
+$parser = $po->byModalidade(FirjanPesquisaPageObject::MODALIDADE_PREGAO_ELETRONICO)->bySituacao(FirjanPesquisaPageObject::PREGAO_ELETRONICO_EM_PROPOSTA);
 
 $licitacoes = $po->post()->getIterator();
 
-$poDetalhes = new FirjanPageObject($guz);
+$poDetalhes = new FirjanPesquisaPageObject($guz);
 
 foreach ($licitacoes as $licitacao) {
 

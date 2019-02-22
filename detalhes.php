@@ -9,7 +9,7 @@ $guz = new Client(['cookies' => true, 'verify' => false]);
 
 $po = new DetalhesPageObject($guz);
 
-$parser = $po->getDetalhes(2093)->getIterator();
+$parser = $po->getDetalhes(2096)->getIterator();
 
 print_r($parser);
 

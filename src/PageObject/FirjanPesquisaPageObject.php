@@ -10,7 +10,7 @@ namespace Forseti\Bot\Firjan\PageObject;
 
 use Forseti\Bot\Firjan\Parser\FirjanParser;
 
-class FirjanPageObject extends AbstractPageObject
+class FirjanPesquisaPageObject extends AbstractPageObject
 {
     const MODALIDADE_TODAS = 0;
     const MODALIDADE_PROCESSOS_PRESENCIAIS = 22;

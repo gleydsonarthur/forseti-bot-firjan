@@ -10,7 +10,7 @@ namespace Forseti\Bot\Firjan\Parser;
 use Forseti\Bot\Firjan\Iterator\ResumoEditalIterator;
 
 
-class DetalhesItensLicitacaoParser extends AbstractJsonParser
+class ResumoEditalParser extends AbstractJsonParser
 {
     public function getIterator()
     {
