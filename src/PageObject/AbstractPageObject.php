@@ -1,15 +1,18 @@
 <?php
 
 namespace Forseti\Bot\Firjan\PageObject;
-use GuzzleHttp\Client;
 
+use Forseti\Bot\Firjan\Factory\GuzzleClientFactory;
+use Forseti\Bot\Firjan\Traits\ForsetiLoggerTrait;
 
 abstract class AbstractPageObject
 {
+    use ForsetiLoggerTrait;
+
     protected $client;
 
-    public function __construct(Client $client)
+    public function __construct()
     {
-        $this->client = $client;
+        $this->client = GuzzleClientFactory::getInstance();
     }
 }

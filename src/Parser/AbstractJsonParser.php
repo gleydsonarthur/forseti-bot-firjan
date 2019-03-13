@@ -11,14 +11,16 @@ namespace Forseti\Bot\Firjan\Parser;
 Abstract class AbstractJsonParser
 {
     private $json;
+    protected $data;
 
     public function __construct($json)
     {
         $this->json = $json;
+        $this->data = json_decode($this->json,true)['d'];
     }
 
     public function getJsonAsArray()
     {
-        return json_decode($this->json,true)['d'];
+        return $this->data;
     }
 }

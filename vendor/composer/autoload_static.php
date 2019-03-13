@@ -24,7 +24,12 @@ class ComposerStaticInit2f0e1c067795375b0dc51f500eac3e84
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
         ),
         'G' => 
         array (
@@ -34,6 +39,7 @@ class ComposerStaticInit2f0e1c067795375b0dc51f500eac3e84
         ),
         'F' => 
         array (
+            'Forseti\\Logger\\' => 15,
             'Forseti\\Bot\\Firjan\\' => 19,
         ),
     );
@@ -51,9 +57,17 @@ class ComposerStaticInit2f0e1c067795375b0dc51f500eac3e84
         array (
             0 => __DIR__ . '/..' . '/symfony/dom-crawler',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -66,6 +80,10 @@ class ComposerStaticInit2f0e1c067795375b0dc51f500eac3e84
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'Forseti\\Logger\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/forseti/logger/src',
         ),
         'Forseti\\Bot\\Firjan\\' => 
         array (

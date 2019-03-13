@@ -7,13 +7,23 @@
  */
 
 namespace Forseti\Bot\Firjan\Parser;
-use Forseti\Bot\Firjan\Iterator\DetalhesIterator;
-
 
 class DetalhesParser extends AbstractJsonParser
 {
-    public function getIterator()
+    public function getNumeroProcesso()
     {
-        return new DetalhesIterator($this->getJsonAsArray());
+        return $this->data['sNrProcesso'];
     }
+
+    public function getTxtObjeto()
+    {
+        return $this->data['sDsObjeto'];
+    }
+
+    public function getParamAnexoToDownload()
+    {
+        return $this->data['nCdAnexo'];
+    }
+
+    //parsear o restante das informações conforme documentação
 }

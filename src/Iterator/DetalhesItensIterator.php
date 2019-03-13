@@ -16,9 +16,9 @@ class DetalhesItensIterator extends \ArrayIterator
         $current = $this->offsetget($this->key());
 
         return [
-            'codigo' => $current['nCdProcesso'],
-            'modalidade' => $current['sNmModalidade'],
-            'situacao' => $current['sDsSituacao'],
+            'nmItem' => $current['sDsItem'],
+            'qtdItem' => $current['dQtItem'],
+            //parsear o restante das informações conforme documentação
         ];
     }
 }
