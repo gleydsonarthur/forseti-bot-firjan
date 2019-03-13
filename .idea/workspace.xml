@@ -2,48 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66ce6dcf-ade1-4913-8c8c-93d15e084d19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/forseti-bot-firjan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forseti-bot-firjan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/AVISO DE SESSÃO INAUGURAL - DOU - SESSAO 15.03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/AVISO DE SESSÃO INAUGURAL - DOU.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/AVISO DE SESSÃO INAUGURAL - O DIA - SESSAO 15.03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/AVISO DE SESSÃO INAUGURAL - O DIA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/Adiamento Sine Die - Ofício CL 1637-2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/EDITAL PE 264. 2018 - Versão 01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/EDITAL PE 264. 2018 - Versão 02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/Guia_fornecedor2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/JULGAMENTO IMPUGNAÇÃO.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos/Ofício CL 322-2019 - Indeferimento Impugnação.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/detalhes.php" beforeDir="false" afterPath="$PROJECT_DIR$/detalhes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detalhes_item.php" beforeDir="false" afterPath="$PROJECT_DIR$/detalhes_item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pesquisa.php" beforeDir="false" afterPath="$PROJECT_DIR$/pesquisa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resumo_edital.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/DetalhesItensIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/DetalhesItensIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/DetalhesIterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/FirjanIterator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iterator/PesquisaIterator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Iterator/ResumoEditalIterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/AbstractPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/AbstractPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/DetalhesItensPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/FirjanPesquisaPageObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageObject/PesquisaPageObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageObject/ResumoEditalPageObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/AbstractJsonParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser/AbstractJsonParser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser/DetalhesParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser/DetalhesParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/FirjanParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser/PesquisaParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Parser/ResumoEditalParser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/AbstractUriElement.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Crawler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/ChoiceFormField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Field/FileFormField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/FormFieldRegistry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/ChoiceFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FileFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/FormFieldTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/Field/InputFormFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/FormTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/ImageTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dom-crawler/Tests/LinkTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,19 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Iterator/AnexosIterator.php">
+        <entry file="file://$PROJECT_DIR$/src/Utils/Functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Iterator/DetalhesItensIterator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -106,21 +68,22 @@
         <option value="$PROJECT_DIR$/src/PageObject/DetalhesItemPageObject.php" />
         <option value="$PROJECT_DIR$/src/Iterator/DetalhesItensIterator.php" />
         <option value="$PROJECT_DIR$/src/Iterator/PesquisaIterator.php" />
-        <option value="$PROJECT_DIR$/src/Parser/DetalhesParser.php" />
         <option value="$PROJECT_DIR$/src/Parser/AnexosParser.php" />
-        <option value="$PROJECT_DIR$/src/Iterator/AnexosIterator.php" />
-        <option value="$PROJECT_DIR$/pesquisa.php" />
         <option value="$PROJECT_DIR$/download.php" />
         <option value="$PROJECT_DIR$/anexos.php" />
         <option value="$PROJECT_DIR$/detalhes_item.php" />
         <option value="$PROJECT_DIR$/src/Factory/GuzzleClientFactory.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/detalhes.php" />
         <option value="$PROJECT_DIR$/src/PageObject/DetalhesItensPageObject.php" />
         <option value="$PROJECT_DIR$/src/Traits/ForsetiLoggerTrait.php" />
         <option value="$PROJECT_DIR$/src/PageObject/AbstractPageObject.php" />
         <option value="$PROJECT_DIR$/src/PageObject/PesquisaPageObject.php" />
         <option value="$PROJECT_DIR$/src/PageObject/AnexosPageObject.php" />
+        <option value="$PROJECT_DIR$/src/Iterator/AnexosIterator.php" />
+        <option value="$PROJECT_DIR$/src/Parser/DetalhesParser.php" />
+        <option value="$PROJECT_DIR$/detalhes.php" />
+        <option value="$PROJECT_DIR$/pesquisa.php" />
+        <option value="$PROJECT_DIR$/src/Utils/Functions.php" />
       </list>
     </option>
   </component>
@@ -169,7 +132,14 @@
             <path>
               <item name="forseti-bot-firjan" type="b2602c69:ProjectViewProjectNode" />
               <item name="forseti-bot-firjan" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Traits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forseti-bot-firjan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forseti-bot-firjan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,17 +204,17 @@
       <workItem from="1552390438547" duration="17981000" />
       <workItem from="1552414162258" duration="21000" />
       <workItem from="1552414185830" duration="177000" />
-      <workItem from="1552476396230" duration="239000" />
+      <workItem from="1552476396230" duration="9959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80512000" />
+    <option name="totallyTimeSpent" value="90232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1389" height="785" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36932242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2702904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,7 +227,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2972561" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2972561" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -287,51 +257,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Iterator/DetalhesIterator.php" />
-    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PageObject/ResumoEditalPageObject.php" />
     <entry file="file://$PROJECT_DIR$/src/Iterator/ResumoEditalIterator.php" />
     <entry file="file://$PROJECT_DIR$/src/Parser/ResumoEditalParser.php" />
-    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesItensParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/AbstractJsonParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/PesquisaParser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator/PesquisaIterator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="50" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/AnexosParser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -341,20 +269,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/download.php" />
     <entry file="file://$PROJECT_DIR$/resumo_edital.php" />
-    <entry file="file://$PROJECT_DIR$/pesquisa.php">
+    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesItensPageObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#133#155#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalhes_item.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/AbstractPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/AnexosPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -365,17 +304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/detalhes.php">
+    <entry file="file://$PROJECT_DIR$/src/Iterator/AnexosIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesItensPageObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -386,10 +318,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/src/Parser/PesquisaParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="105">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageObject/DetalhesPageObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/AbstractJsonParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -403,38 +356,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/AbstractPageObject.php">
+    <entry file="file://$PROJECT_DIR$/src/Parser/DetalhesItensParser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detalhes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pesquisa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#6#96#0#PHP" />
+            <element signature="e#133#155#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PageObject/PesquisaPageObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="114" column="19" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="19" />
+        <state relative-caret-position="887">
+          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageObject/AnexosPageObject.php">
+    <entry file="file://$PROJECT_DIR$/detalhes_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Iterator/AnexosIterator.php">
+    <entry file="file://$PROJECT_DIR$/src/Iterator/PesquisaIterator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Iterator/DetalhesItensIterator.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>

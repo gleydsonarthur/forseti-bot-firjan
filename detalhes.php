@@ -8,6 +8,8 @@ $po = new DetalhesPageObject();
 
 $parser = $po->getDetalhes(1978);
 
+print_r('Firjan');
+
 var_dump($parser->getJsonAsArray()); exit;
 
 

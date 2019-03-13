@@ -27,3 +27,4 @@ class DetalhesParser extends AbstractJsonParser
 
     //parsear o restante das informações conforme documentação
 }
+
