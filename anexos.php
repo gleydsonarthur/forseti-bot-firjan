@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: joaosilva
- * Date: 12/03/19
- * Time: 11:43
- */
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 use Forseti\Bot\Firjan\PageObject\AnexosPageObject;

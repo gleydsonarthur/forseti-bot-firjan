@@ -8,6 +8,7 @@
 
 namespace Forseti\Bot\Firjan\Parser;
 
+
 class DetalhesParser extends AbstractJsonParser
 {
     public function getNumeroProcesso()

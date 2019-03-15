@@ -1,6 +1,6 @@
 <?php
 
-namespace Forseti\Bot\Fiergs\Utils;
+namespace Forseti\Bot\Firjan\Utils;
 
 
 class Functions
