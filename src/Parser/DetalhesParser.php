@@ -7,23 +7,38 @@
  */
 
 namespace Forseti\Bot\Firjan\Parser;
-
+use Forseti\Bot\Firjan\Utils\Functions;
 
 class DetalhesParser extends AbstractJsonParser
 {
-    public function getNumeroProcesso()
+    public function getCodigoProcesso()
+    {
+        return $this->data['nCdProcesso'];
+    }
+
+    public function  getNumeroProcesso()
     {
         return $this->data['sNrProcesso'];
     }
 
-    public function getTxtObjeto()
+    public function getOrgaoNome()
     {
-        return $this->data['sDsObjeto'];
+        return $this->data['sNmEmpresa'];
     }
 
-    public function getParamAnexoToDownload()
+    public function getModalidade()
     {
-        return $this->data['nCdAnexo'];
+        return $this->data['sNmModalidade'];
+    }
+
+    public function getDataPublicacao()
+    {
+        return Functions::format($this->data['tDtInicial']);
+    }
+
+    public function getDataLimiteEntrega()
+    {
+        return Functions::format($this->data['tDtFinal']);
     }
 
     //parsear o restante das informações conforme documentação

@@ -18,7 +18,7 @@ class PesquisaParser extends AbstractJsonParser
         return new PesquisaIterator($this->getJsonAsArray());
     }
 
-    public function getCodigoProcesso()
+    /*public function getCodigoProcesso()
     {
         return $this->data['nCdProcesso'];
     }
@@ -46,5 +46,5 @@ class PesquisaParser extends AbstractJsonParser
     public function getDataLimiteEntrega()
     {
         return Functions::format($this->data['tDtFinal']);
-    }
+    }*/
 }
