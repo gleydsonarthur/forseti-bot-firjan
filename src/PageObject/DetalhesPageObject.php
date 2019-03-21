@@ -4,6 +4,7 @@ namespace Forseti\Bot\Firjan\PageObject;
 
 use Forseti\Bot\Firjan\Parser\DetalhesParser;
 
+
 class DetalhesPageObject extends AbstractPageObject
 {
     public function getDetalhes($idPortal)

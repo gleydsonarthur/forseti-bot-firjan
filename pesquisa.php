@@ -1,16 +1,16 @@
 <?php
 
 require_once 'vendor/autoload.php';
-use GuzzleHttp\Client;
 use Forseti\Bot\Firjan\PageObject\PesquisaPageObject;
 use Forseti\Bot\Firjan\PageObject\DetalhesPageObject;
-use Forseti\Bot\Firjan\Parser\DetalhesParser;
+use Forseti\Bot\Firjan\Parser\testeParser;
 
 $po = new PesquisaPageObject();
 
 $poDetalhes = new \Forseti\Bot\Firjan\PageObject\DetalhesPageObject();
 
-$parser = $po->byModalidade(PesquisaPageObject::MODALIDADE_PREGAO_ELETRONICO)->bySituacao(PesquisaPageObject::PREGAO_ELETRONICO_ABERTURA_DE_PROPOSTAS)->post();
+$parser = $po->byModalidade(PesquisaPageObject::MODALIDADE_PREGAO_ELETRONICO)->
+bySituacao(PesquisaPageObject::PREGAO_ELETRONICO_EM_PROPOSTA)->post();
 
 //var_dump($po->post()->getJsonAsArray());
 //exit;
@@ -22,12 +22,14 @@ foreach ($licitacoes as $licitacao) {
 
     echo "-------------------------------------------------------------------------------------------------" . "\n \n";
 
-    print_r('Firjan' . "\n");
-    print_r('Código ' . $parser-> getNumeroProcesso() . "\n");
+    print_r('Firjan RJ ' . "\n");
+    print_r('Código: ' . $parser-> getNumeroProcesso() . "\n");
     print_r('Órgão: ' . $parser->getOrgaoNome() . "\n");
-    print_r('Modalidade ' . $parser->getModalidade() . "\n");
-    print_r('Data de publicação ' . $parser->getDataPublicacao() . "\n");
-    print_r('Data limite de entrega: ' . $parser->getDataLimiteEntrega() . "\n");
+    print_r('Modalidade: ' . $parser->getModalidade() . "\n");
+    print_r('Data de início das propostas: ' . $parser->getDataInicioProposta() . "\n");
+    print_r('Data término das propostas: ' . $parser->getDataLimiteEntrega() . "\n");
+    print_r('Data de publicação: ' . $parser->getDataPublicacao() . "\n \n");
+    print_r('Objeto: ' . $parser->getTxtObjeto() . "\n \n");
 
 
 
